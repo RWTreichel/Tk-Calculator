@@ -6,7 +6,11 @@ Created on Sun Jun 26 10:08:45 2016
 @author: Richard
 """
 
-import tkinter
-top = tkinter.Tk()
-# Code to add widgets will go here...
-top.mainloop()
+from tkinter import *
+from tkinter import ttk
+from calculator import *
+
+root = Tk()
+root.title("Tk Calculator")
+
+root.mainloop()
